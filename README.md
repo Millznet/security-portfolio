@@ -2,7 +2,7 @@
 
 I build defensive security tooling and run hands-on labs focused on **detection workflows, incident-ready documentation, and integrity-minded systems**.
 
-This repo is the **public front door** for my work:
+This repository serves as the **public front door** for my work:
 
 * Public repos and lab artifacts (repro steps, diagrams, writeups)
 * Redacted snapshots of commercial implementations (kept private)
@@ -15,19 +15,31 @@ This repo is the **public front door** for my work:
 
 ### gpt_cli_memengine — Repo-Scale AI Workflow Tooling (Rust)
 
-Local CLI for persistent AI memory + structured context injection across large projects.
+Local CLI for persistent AI memory and structured context injection across large projects.
 
 * [https://github.com/Millznet/gpt_cli_memengine](https://github.com/Millznet/gpt_cli_memengine)
 
-### ZKACK — Attestation / Identity Prototype
+---
 
-End-to-end prototype exploring issuance / verification flows.
+### ZK-ACK (Phase 0) — Public Proof Snapshot
 
-* [https://github.com/Millznet/zkack](https://github.com/Millznet/zkack)
+Minimal, runnable proof-of-concept for verifiable "certified notices" over standard email workflows.
+
+Demonstrates:
+
+* Signed message generation
+
+* Tamper detection
+
+* Verification API
+
+* [https://github.com/Millznet/zkack-demo-phase0](https://github.com/Millznet/zkack-demo-phase0)
+
+---
 
 ### Value Refinery — Data + Automation Pipeline
 
-Tooling for structured processing and reporting.
+Tooling for structured processing, transformation, and reporting pipelines.
 
 * [https://github.com/Millznet/value_refinery](https://github.com/Millznet/value_refinery)
 
@@ -35,7 +47,7 @@ Tooling for structured processing and reporting.
 
 ## SIEM Lab Portfolio (Wazuh) — SOC-Ready Artifacts
 
-This section is a job-portfolio lab designed to generate **2–3 undeniable SOC-ready artifacts**:
+This section documents a job-focused lab environment built to generate **2–3 undeniable SOC-ready artifacts**:
 
 * Deploy and operate a SIEM
 * Enroll endpoints and validate telemetry ingestion
@@ -60,7 +72,7 @@ This section is a job-portfolio lab designed to generate **2–3 undeniable SOC-
 
 ## Private (Commercial) Work — High-Level Only
 
-These repos are private while I iterate toward a paid service offering:
+These repos remain private while iterating toward a paid service offering:
 
 * **RobotSec** — endpoint telemetry + evidence-style reporting (EDR-lite / reporting wedge)
 * **Aurora Suite** — fleet security concepts: trust, control plane, update/rollback, baseline drift, edge gateway
